@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "extended-word-list-generator"
+version = "0.1.0"
+description = "Generate an extended word list for my English class"
+authors = ["Olillin"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "extended_word_list_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-docx = "^1.1.0"
+pandas = "^2.1.4"
+requests = "^2.31.0"
+openpyxl = "^3.1.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
